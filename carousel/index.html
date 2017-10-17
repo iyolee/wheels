@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>轮播图</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div id="my-slider" class="slider-list">
+		<ul>
+			<li class="slider-list__item--selected">
+				<img src="./images/1.png"/>
+			</li>
+			<li class="slider-list__item">
+				<img src="./images/2.jpg"/>
+			</li>
+			<li class="slider-list__item">
+				<img src="./images/3.jpg"/>
+			</li>
+			<li class="slider-list__item">
+				<img src="./images/4.jpg"/>
+			</li>
+			<a class="slide-list__next"></a>
+			<a class="slide-list__previous"></a>
+		</ul>
+		<div class="slide-list__control">
+			<span class="slide-list__control-buttons--selected"></span>
+			<span class="slide-list__control-buttons"></span>
+			<span class="slide-list__control-buttons"></span>
+			<span class="slide-list__control-buttons"></span>
+		</div>
+	</div>
+	<script src="./carousel.js"></script>
+</body>
+</html>
